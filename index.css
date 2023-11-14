@@ -1,0 +1,68 @@
+/* input {
+    border: 2px black solid;
+    border-radius: 5px;
+} */
+
+
+input,
+textarea {
+  border: 2px solid black;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+body {
+  background-color: rgb(226 222 222);
+}
+
+.center-div {
+  border-left: 2px dashed rgba(255, 255, 255);
+  border-right: 2px dashed rgba(255, 255, 255);
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.center-div:hover {
+  background-color: #e9a8a8;
+}
+
+/* // Tree Rule */
+div h1 {
+  color: brown;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+div + h1 {
+  color: Blue !important;
+  border-bottom: 2px solid black;
+}
+
+
+input[type="submit"] {
+    color: blue;
+    font-weight: 900;
+    background-color: rgb(198, 117, 117);
+    display: block;
+    border: none !important;
+    padding: 5px;
+    font-size: 20px;
+    width: 25%;
+}
+
+input[type="submit"]:focus {
+    border: 2px solid rgb(204, 150, 150) !important;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
